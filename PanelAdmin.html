@@ -24,7 +24,7 @@
     }
   </style>
 </head>
-<body style="background-color:#f0f0f0;">
+<body style="background-color:#f0f0f0;" dir="ltr">
 
 <div class="calculator">
   <input type="text" id="result" class="form-control mb-3" readonly>
@@ -45,12 +45,12 @@
     <div class="col-3"><button class="btn btn-secondary w-100" onclick="append('3')">3</button></div>
     <div class="col-3"><button class="btn btn-warning w-100" onclick="append('-')">−</button></div>
 
-    <div class="col-3"><button class="btn btn-secondary w-100" onclick="append('.')">.</button></div>
+    <div class="col-3"><button class="btn btn-danger w-100" onclick="clearResult()">C</button></div>
     <div class="col-3"><button class="btn btn-secondary w-100" onclick="append('0')">0</button></div>
-    <div class="col-3"><button class="btn btn-success w-100" onclick="calculate()">=</button></div>
+    <div class="col-3"><button class="btn btn-secondary w-100" onclick="append('.')">.</button></div>
     <div class="col-3"><button class="btn btn-warning w-100" onclick="append('+')">+</button></div>
-
-    <div class="col-12"><button class="btn btn-danger w-100" onclick="clearResult()">C</button></div>
+    
+    <div class="col-12"><button class="btn btn-success w-100" onclick="calculate()">=</button></div>
   </div>
 </div>
 
